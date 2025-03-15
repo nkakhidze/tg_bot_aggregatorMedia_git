@@ -1,0 +1,20 @@
+# Игнорируем виртуальное окружение
+.venv/
+venv/
+
+# Кеши PyCharm
+.idea/
+
+# Файлы с сессией Telethon (чтобы не хранить авторизацию)
+*.session
+*.session-journal
+
+# Кеши и логи
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Конфиденциальные данные
+.env
+config.json
