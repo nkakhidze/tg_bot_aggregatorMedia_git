@@ -18,3 +18,4 @@ __pycache__/
 # Конфиденциальные данные
 .env
 config.json
+/mainPack/subscriptions.json
