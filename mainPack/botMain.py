@@ -3,6 +3,7 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from config_reader import config
 from handlers import routers
+from handlers import news
 
 
 

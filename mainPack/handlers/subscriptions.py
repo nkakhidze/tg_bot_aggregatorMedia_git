@@ -10,7 +10,7 @@ try:
 except FileNotFoundError:
     subscriptions = {}
 
-@router.message()
+@router.message(lambda message: not message.text.startswith("📰"))  # <--- Добавляем фильтр
 async def save_subscription(message: types.Message):
     user_id = str(message.from_user.id)
     url = message.text.strip()
